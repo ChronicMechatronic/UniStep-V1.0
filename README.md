@@ -5,6 +5,9 @@ Driving them in their original unipolar configuration makes the motors a lot qui
 Of course unipolar motors also have a number of disadvantages over their bipolar hybrid counterparts, (notably: lower max speeds, faster torque drop-off at high speeds, commonly low resolution of only 48 steps/revolution) making them 
 indesirable for 3D printing and laser cutting (basically all direct belt drive applications). For many low-stake automation tasks they're usually sufficient though and being able to reuse e-waste is worth something as well, so this translating driver makes it easier.
 
+![UniStep v1 0 -removebg-preview](https://github.com/ChronicMechatronic/UniStep-V1.0/assets/145880075/98ea70f6-4283-4c79-8cfc-5372aec54005)
+
+
 Taking step/direction and enable input signals UniStep is fully compatible with the well established A4988 ecosystem, allowing to easily retrofit existing hardware.
 
 
