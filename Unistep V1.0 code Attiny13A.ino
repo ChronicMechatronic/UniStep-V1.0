@@ -1,6 +1,6 @@
 /*100% functional UniStep code for Attiny13A
 Distributed under the GPL-3.0 V3 license
-01/28/2023 by Chronic Mechatronic
+01/28/2024 by Chronic Mechatronic
 
 Requires following voltage divider on PB3:
 47K resistor from sensepin to ground, 47K resistor from sensepin to DIR input, generic diode from ENABLE input to sensepin (cathode connects to sensepin)
