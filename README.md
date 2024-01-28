@@ -7,11 +7,17 @@ indesirable for 3D printing and laser cutting (basically all direct belt drive a
 
 Taking step/direction and enable input signals UniStep is fully compatible with the well established A4988 ecosystem, allowing to easily retrofit existing hardware.
 
+
 Specifications:
+
 -A4988 hardware compatible
+
 -Max. voltage: 28V
+
 -Max. current per phase: 0.5A (plenty for all unipolar motors I've so far come across)
+
 -Microstepping mode: halfsteps (can be changed to fullsteps in software, though I'm not sure know why you'd ever do that)
+
 
 Notes:
 Since current is purely limited by the motor's phase resistance, the supply voltage must be matched to the motor. Otherwise overheating may occur.
