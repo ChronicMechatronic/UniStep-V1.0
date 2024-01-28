@@ -1,12 +1,12 @@
 # UniStep-V1.0
+![UniStep v1 0 -removebg-preview](https://github.com/ChronicMechatronic/UniStep-V1.0/assets/145880075/98b1077d-8fa5-47b7-91a5-7d166e3af7d9)
+
+
 UniStep is a simple, low-cost, translating stepper motor driver allowing you to use cheaply manufactured unipolar steppers frequently found in e-waste for any kind of CNC project like 3D printers, 
 without doing the usual unipolar-to-bipolar mod needed in order to use common bipolar drivers like the A4988. 
 Driving them in their original unipolar configuration makes the motors a lot quieter as current limiting relies on the internal phase resistance of the motor rather than a noisy PWM signal in constant current control.
 Of course unipolar motors also have a number of disadvantages over their bipolar hybrid counterparts, (notably: lower max speeds, faster torque drop-off at high speeds, commonly low resolution of only 48 steps/revolution) making them 
 indesirable for 3D printing and laser cutting (basically all direct belt drive applications). For many low-stake automation tasks they're usually sufficient though and being able to reuse e-waste is worth something as well, so this translating driver makes it easier.
-
-![UniStep v1 0 -removebg-preview](https://github.com/ChronicMechatronic/UniStep-V1.0/assets/145880075/98ea70f6-4283-4c79-8cfc-5372aec54005)
-
 
 Taking step/direction and enable input signals UniStep is fully compatible with the well established A4988 ecosystem, allowing to easily retrofit existing hardware.
 
