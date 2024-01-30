@@ -21,6 +21,9 @@ Specifications:
 
 -Microstepping mode: halfsteps (can be changed to fullsteps in software, though I'm not sure know why you'd ever do that)
 
+PINOUT:
+![pinout](https://github.com/ChronicMechatronic/UniStep-V1.0/assets/145880075/95975eb3-0e01-4e5a-974c-5353598e5529)
+
 
 Notes:
 Since current is purely limited by the motor's phase resistance, the supply voltage must be matched to the motor. Otherwise overheating may occur.
