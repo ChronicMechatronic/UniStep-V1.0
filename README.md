@@ -21,8 +21,9 @@ Specifications:
 
 -Microstepping mode: halfsteps (can be changed to fullsteps in software, though I'm not sure know why you'd ever do that)
 
-PINOUT:
-![pinout](https://github.com/ChronicMechatronic/UniStep-V1.0/assets/145880075/95975eb3-0e01-4e5a-974c-5353598e5529)
+
+Pinout diagram:
+![pinout small](https://github.com/ChronicMechatronic/UniStep-V1.0/assets/145880075/d945227a-217e-416e-8b2d-d828e26ace91)
 
 
 Notes:
