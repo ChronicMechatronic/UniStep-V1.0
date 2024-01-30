@@ -1,6 +1,8 @@
 /*100% functional UniStep code for Attiny13A
 Distributed under the GPL-3.0 V3 license
 01/28/2024 by Chronic Mechatronic
+With modifications suggested by Flo (change variables to uint8/16_t; add default case to switch statement)
+and tested. (Attiny can be erased and reprogrammed in-situ)
 
 Requires following voltage divider on PB3:
 47K resistor from sensepin to ground, 47K resistor from sensepin to DIR input, generic diode from ENABLE input to sensepin (cathode connects to sensepin)
@@ -14,8 +16,8 @@ Requires following voltage divider on PB3:
 #define DirEnableIn PB3
 
 volatile bool direction = 0;   //boolean for CW or CCW rotation
-volatile byte StepCount = 1;   // step counter variable
-int DirEnval = 0;
+volatile uint8_t StepCount = 1;   // step counter variable
+uint16_t DirEnval = 0;
 
 
 
@@ -79,6 +81,10 @@ void loop() {
     case 8:
     PORTB = B00010001;
     break;    
+  
+    default:
+    PORTB = B00000000;    // turn off motor in case StepCount variable doesn't match expected value
+    break;
   }
 
 
