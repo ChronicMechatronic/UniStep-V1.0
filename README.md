@@ -23,7 +23,7 @@ Specifications:
 
 
 Pinout diagram:
-![pinout small](https://github.com/ChronicMechatronic/UniStep-V1.0/assets/145880075/d945227a-217e-416e-8b2d-d828e26ace91)
+![pinout](https://github.com/ChronicMechatronic/UniStep-V1.0/assets/145880075/dfabb936-cf33-45ad-8eec-c61b1c6bc949)
 
 
 Notes:
