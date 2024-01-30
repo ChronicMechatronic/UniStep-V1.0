@@ -26,7 +26,9 @@ Pinout diagram:
 
 ![pinout small](https://github.com/ChronicMechatronic/UniStep-V1.0/assets/145880075/11034483-9812-49d4-b43b-2fc7ca13730b)
 
+
 For more detailed explanations and assembly instructions watch my full video on YouTube:
+
 [![ ](https://img.youtube.com/vi/VZYx2AsjqHE/maxresdefault.jpg)](https://youtu.be/VZYx2AsjqHE)
 
 
